@@ -1,0 +1,208 @@
+html {scroll-behavior:smooth;}
+.ignielToTop {width:50px; height:50px; position:fixed; bottom:50px; right: 50px; z-index:99; cursor:pointer; border-radius:100px; transition:all .5s; background:darkred url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+.ignielToTop:hover {background:#1d2129 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+
+body {
+    	font-family: 'Nunito', sans-serif;
+    	font-size: 16px;
+    	line-height: 1.5;
+    	background-color: lightgoldenrodyellow;
+      text-align: center;
+    }
+nav{
+    padding: 15px;
+  	background-color: #fff;
+  	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius:0px 0px 15px 15px;
+    position: fixed;
+    z-index: 9999;
+    display:flex;
+    top: 0;
+    align-items: center;
+  justify-content: center;
+    }
+
+a{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left:37px;
+            padding-right:38px;
+            background-color: lightyellow;
+            border: 3px solid darkred;
+            margin: 5px;
+            border-radius:20px;
+            opacity:0.7;
+            transition-duration:0.5s;
+          }
+          
+          a:hover{
+            color: white;
+            background-color: darkred;
+            opacity:1.0;
+            transform: scale(0.75);
+          }
+    header {
+      font-family: 'Nunito', sans-serif;
+      font-family:
+    	text-align: center;
+    	padding: 20px;
+    	background-color: #fff;
+    	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+      margin-left: 300px;
+      margin-right: 300px;
+      border-radius:15px;
+    }
+    h1 {
+    	font-size: 32px;
+    	margin-bottom: 10px;
+    }
+
+    section {
+    	margin-bottom: 30px;
+    }
+    
+    h2 {
+    	font-size: 24px;
+    	margin-bottom: 10px;
+    }
+    
+    ul {
+    	list-style: circle;
+    	margin-left: px;
+    }
+    
+    li {
+    	margin-bottom: 5px;
+    }
+    div{
+      display: block;
+      border-radius:15px;
+    }
+    table{
+      text-align:center;
+    }
+    .kontak-informasi{
+    padding: 15px;
+  	background-color: #fff;
+  	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  .isi-kontak-informasi{
+    
+    display:flex;
+    padding: 20px;
+  	background-color: #fff;
+  	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align:left;
+    margin-right: 100px;
+    margin-left:100px;
+    margin-bottom:10px;
+  }
+.hubungi-saya{
+    padding: 15px;
+  	background-color: #fff;
+  	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .form-hubungi-saya{
+    
+    display:flex;
+    padding: 20px;
+  	background-color: #fff;
+  	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    text-align:left;
+    margin-right: 100px;
+    margin-left:100px;
+    margin-bottom:10px;
+  }
+    button{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left:10px;
+      padding-right:10px;
+      background-color: lightyellow;
+      border: 3px solid darkred;
+      margin-top: 
+      margin-bottom: 20px;
+      border-radius:20px;
+      opacity:0.7;
+      transition-duration:0.5s;
+      cursor:pointer;
+      font-size:15px;
+    }
+    button:hover{
+      color: white;
+      background-color: darkred;
+      opacity:1.0;
+    }
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: lightyellow;
+  border: 3px solid darkred;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  opacity:0.7; 
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration:0.5s;
+}
+
+input[type="submit"]:hover {
+  color: white;
+  background-color: darkred;
+  opacity:1.0;
+  transform: scale(0.9);
+}
+
+.ignielToTop{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left:5px;
+            padding-right:5px;
+            background-color: darkred;
+            border: 3px solid darkred;
+            margin: 5px;
+            border-radius:50px;
+            opacity:0.7;
+            transition-duration:0.5s;
+          }
+          
+          .ignielToTop:hover{
+            color: darkred;
+            background-color: darkred;
+            opacity:1.0;
+            transform: scale(0.75);
+          }
